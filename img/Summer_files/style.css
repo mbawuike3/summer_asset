@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+}
+button{
+    border: none;
+}
+button{
+    cursor: pointer;
+}
+body
+{
+    background: #f3f3f3;
+    color: #555;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    width: 100%;
+}
+.header{
+    background: #fff;
+    color: #222;
+    margin-top: 10px;
+}
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+.logo{
+    width: 40px;
+}
+.navbar ul{
+    list-style: none;
+    padding: 0;
+}
+.navbar li{
+    display: inline;
+}
+.navbar a{
+    text-decoration: none;
+    color: #222;
+    padding-right: 20px;
+}
+.header_button button{
+    background: #00ff00;
+    color: #222;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin: 0 15px;
+}
+.header_button button:nth-child(2){
+    background: transparent;
+    border: 2px solid #00ff00;
+}
+.form{
+    width: 25%;
+    margin: 120px auto 30px;
+    background: #fff;
+   padding: 50px 40px;
+}
+.form h4{
+    font-size: 30px;
+    text-align: center;
+}
+.form .form-input input{
+    background: #e3e3e3;
+    width: 100%;
+    padding: 15px 22px;
+    margin: 12px 0px;
+    border-radius: 6px;
+    outline: none;
+    border: none;
+}
+.form .form-input input::placeholder{
+    font-size: 15px;
+}
+.form .form-button button{
+    background: #00ff00;
+    color: #fff;
+    width: 100%;
+    padding: 12px 0px;
+    border-radius: 6px;
+    margin-top: 10px;
+    font-size:14px;
+    cursor:default;
+}
+.forgotten_password{
+    margin-top: 15px;
+}
+.forgotten_password a{
+    text-decoration: none;
+    color: gray;
+}
+.forgotten_password a:hover{
+    text-decoration: underline;
+}

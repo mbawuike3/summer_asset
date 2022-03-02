@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+a:hover{
+    color: #cccccc;
+    font-weight: bold;
+}
+.button_1{
+    background: #e8491d;
+    color: #fff;
+    outline: none;
+    padding: 5px 12px;
+    font-size: 14px;
+
+}
+img{
+    width: 70%;
+    height: 170px;
+}
+.dark{
+    background: #35424a;
+    color: #fff;
+    padding: 15px;
+    margin-top: -50px;
+}
+body{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.6em;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header{
+    background-color: #35424a;
+    color: #fff;
+    min-height: 40px;
+    padding: 30px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: #e8491d 3px solid;
+}
+header a{
+    color: #fff;
+    margin-right: 40px;
+    text-transform: uppercase;
+}
+header .highlight, .current{
+    color: #e8491d;
+    font-weight: bold;
+}
+.showcase{
+    background: url('../img/showcase.jpg');
+    background-position: center right;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    text-align: center;
+    color: #fff;
+}
+.showcase h1{
+    font-size: 50px;
+    padding-top: 100px;
+    line-height: 1.6em;
+}
+.showcase p{
+    font-size: 20px;
+}
+.newsletter{
+    background: #35424a;
+    color: #fff;
+    padding: 10px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 40px;
+    margin-bottom: 30px;
+}
+form input{
+    padding: 8px 5px;
+    outline: none;
+    width: 200px;
+}
+form input::placeholder{
+    font-size: 13px;
+}
+.main-box{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box{
+    width: 25%;
+    text-align: center;
+}
+/* about us */
+.area{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 70px;
+    width: 80%;
+    margin: 0px auto;
+}
+.area .main{
+    width: 65%;
+}
+.area .sidebar{
+    width: 35%;
+    margin-top: -70px;
+    padding: 0px 50px;
+}
+aside.sidebar .quote input, aside.sidebar ,.quote textarea{
+    width: 90%;
+    padding: 5px;
+    outline: none;
+}
+/* services */
+.services li{
+    list-style: none;
+    padding: 20px;
+    border: 1px #cccccc solid;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+}
+footer{
+    background: #e8491d;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px 0px;
+    font-weight: bold;
+}
+/* media query */
+@media (max-width:30px){
+    body{
+        display: none;
+    }
+}
